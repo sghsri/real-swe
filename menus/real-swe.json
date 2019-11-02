@@ -1,26 +1,18 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle real-swe",
-        "command": "real-swe:toggle"
-      }
-    ]
-  },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "real-swe",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "real-swe:toggle"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    "context-menu": {
+        "atom-text-editor": [{
+            "label": "Real SWE",
+            "command": "real-swe:toggle"
+        }]
+    },
+    "menu": [{
+        "label": "Packages",
+        "submenu": [{
+            "label": "real-swe",
+            "submenu": [{
+                "label": "Toggle",
+                "command": "real-swe:toggle"
+            }]
+        }]
+    }]
 }
